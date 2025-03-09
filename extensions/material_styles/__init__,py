@@ -1,0 +1,10 @@
+"""
+Material Styles Extension for Interverse SDK.
+
+This extension allows games to define and apply material styles to assets,
+enabling consistent visual appearances across different games.
+"""
+
+from .material_extension import MaterialStylesExtension, MaterialStyle, MaterialProperty
+
+__all__ = ['MaterialStylesExtension', 'MaterialStyle', 'MaterialProperty']
